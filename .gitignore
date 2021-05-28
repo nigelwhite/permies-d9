@@ -19,8 +19,6 @@
 
 # Ignore local dev stuff
 /localstore/
-.ddev
-.vscode
 
 # Ignore local dev resources
 /localdev/
