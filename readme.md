@@ -1,9 +1,10 @@
 ## Drupal Core Recommended
 
 Since this is a drupal/core-recommended project the correct update commands are
-ddev composer update drupal/core 'drupal/core-\*' --with-all-dependencies
-ddev drush updb
-ddev drush cr
+
+- ddev composer update drupal/core 'drupal/core-\*' --with-all-dependencies
+- ddev drush updb
+- ddev drush cr
 
 ## Subtheme Bootstrap 4 Sub
 
