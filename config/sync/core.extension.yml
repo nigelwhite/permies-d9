@@ -8,6 +8,7 @@ module:
   block_content: 0
   breakpoint: 0
   ckeditor: 0
+  coffee: 0
   color: 0
   comment: 0
   config: 0
@@ -21,6 +22,7 @@ module:
   field_ui: 0
   file: 0
   filter: 0
+  gin_login: 0
   help: 0
   history: 0
   image: 0
@@ -53,6 +55,8 @@ theme:
   classy: 0
   bootstrap4: 0
   bootstrap4_sub: 0
+  claro: 0
+  gin: 0
 profile: standard
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
