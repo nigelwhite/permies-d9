@@ -1,13 +1,13 @@
-uuid: e73a27ac-97de-4adb-a0f1-44f45f020eb4
+uuid: 9c72026d-3048-49d8-bde3-985accd5e505
 langcode: en
 status: true
 dependencies:
   theme:
-    - bootstrap4
+    - b5subtheme
 _core:
-  default_config_hash: IzSbK3zk-Gon9y7WLEWop15Wn__7LeKzBJIXqajlb00
-id: bootstrap4_local_tasks
-theme: bootstrap4
+  default_config_hash: yX9o6NcntZnXRDfbJoHY1pJwuXlumW44m5AMs347NN4
+id: b5subtheme_local_tasks
+theme: b5subtheme
 region: content
 weight: -4
 provider: null

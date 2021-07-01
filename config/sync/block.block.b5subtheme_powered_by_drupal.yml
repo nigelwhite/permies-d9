@@ -1,15 +1,15 @@
-uuid: 11a8c8f3-fa61-4020-b70d-8e8f6fd516a3
+uuid: f7033deb-40e5-4607-a421-1b472aac1519
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bootstrap4
+    - b5subtheme
 _core:
-  default_config_hash: pCYcyBIVbwKUmraga_6Ycz5P-bhQJLJS_8HtOFpMq-o
-id: bootstrap4_powered_by_drupal
-theme: bootstrap4
+  default_config_hash: 2_xxaOb8b_0AUgYFdJLxIBDDwufyh6YozhGfBd97p38
+id: b5subtheme_powered_by_drupal
+theme: b5subtheme
 region: footer
 weight: 0
 provider: null

@@ -1,4 +1,4 @@
-uuid: fe8c0e3e-7567-4439-ace7-bd2e583050b3
+uuid: c1b16a88-693e-4980-8821-a0b0b6346db8
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   module:
     - system
   theme:
-    - bootstrap4_sub
+    - b5subtheme
 _core:
-  default_config_hash: bSenKfxHQ1-_DHnPlsMsap_D6fif7bbe3kh9k31LkdU
-id: bootstrap4_sub_account_menu
-theme: bootstrap4_sub
+  default_config_hash: YRZjNp4d68NjJAVhrrUrXKwpV12i7OFWg4MY6Bsd0mw
+id: b5subtheme_account_menu
+theme: b5subtheme
 region: nav_additional
 weight: -7
 provider: null

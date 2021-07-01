@@ -1,15 +1,15 @@
-uuid: 69fb202d-43c3-431b-8202-2a185c1192db
+uuid: 06e621db-5fcd-42df-b92d-6c1def1ef2f3
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bootstrap4_sub
+    - b5subtheme
 _core:
-  default_config_hash: 0XmTH5dbJRl-fsDBgX10MzeFMarkhKpzU7ZGdGPfAMU
-id: bootstrap4_sub_branding
-theme: bootstrap4_sub
+  default_config_hash: nuW1Z5MdvzbCCEZ9RQojaEWB6Zni32zTq-v5OWbS2sc
+id: b5subtheme_branding
+theme: b5subtheme
 region: nav_branding
 weight: -6
 provider: null

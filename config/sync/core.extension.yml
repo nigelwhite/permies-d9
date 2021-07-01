@@ -53,11 +53,10 @@ theme:
   seven: 0
   stable: 0
   classy: 0
-  bootstrap4: 0
-  bootstrap4_sub: 0
   claro: 0
   gin: 0
   bootstrap5: 0
+  b5subtheme: 0
 profile: standard
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
