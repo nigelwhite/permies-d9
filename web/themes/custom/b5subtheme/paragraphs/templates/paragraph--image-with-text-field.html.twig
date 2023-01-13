@@ -47,9 +47,18 @@
   ]
 %}
 {% block paragraph %}
-  <div{{ attributes.addClass(classes) }}>
-    {% block content %}
-      {{ content }}
-    {% endblock %}
-  </div>
+	<div{{attributes.addClass(classes)}}>
+		{% block content %}
+			<div class="container">
+				<div class="row">
+					<div class=" col">
+						{{ content.field_image }}
+					</div>
+					<div class="col">
+						{{ content.field_image_text }}
+					</div>
+				</div>
+			</div>
+		{% endblock %}
+	</div>
 {% endblock paragraph %}
