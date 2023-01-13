@@ -1,18 +1,18 @@
 name: permies-d9
 type: drupal9
 docroot: web
-php_version: '7.3'
+php_version: "8.1"
 webserver_type: nginx-fpm
-router_http_port: '81'
-router_https_port: '443'
+router_http_port: "81"
+router_https_port: "443"
 xdebug_enabled: false
 additional_hostnames: []
 additional_fqdns: []
-mariadb_version: '10.3'
-mysql_version: ''
+mariadb_version: "10.3"
+mysql_version: ""
 provider: default
 use_dns_when_possible: true
-composer_version: ''
+composer_version: ""
 # This config.yaml was created with ddev version v1.16.7
 # webimage: drud/ddev-webserver:v1.16.7
 # dbimage: drud/ddev-dbserver-mariadb-10.2:v1.16.0
