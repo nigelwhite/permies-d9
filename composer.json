@@ -17,7 +17,7 @@
     "require": {
         "composer/installers": "^1.9",
         "drupal/admin_toolbar": "^3.0",
-        "drupal/bootstrap5": "^1.0@beta",
+        "drupal/bootstrap5": "^2.0",
         "drupal/browsersync": "^2.0",
         "drupal/coffee": "^1.2",
         "drupal/core-composer-scaffold": "^9.1",
