@@ -12845,6 +12845,10 @@ body {
   background-color: aquamarine;
 }
 
+.pattern-preview__variants {
+  margin-bottom: 0.5rem;
+}
+
 .blockquote {
   border: 1px solid black;
   border-radius: 10px;
