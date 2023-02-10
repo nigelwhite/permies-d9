@@ -9,13 +9,13 @@
   border-radius: 10px;
   padding: 1rem;
   &-default {
-    background-color: grey;
+    background-color: rgb(247, 243, 243);
   }
   &-highlighted {
-    background-color: pink;
+    background-color: rgb(247, 182, 193);
   }
   &__author {
-    padding: 0.25rem 1rem;
+    padding: 0.5rem 1rem;
     &:before {
       content: "- ";
     }

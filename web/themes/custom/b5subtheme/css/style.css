@@ -12855,13 +12855,13 @@ body {
   padding: 1rem;
 }
 .blockquote-default {
-  background-color: grey;
+  background-color: #f7f3f3;
 }
 .blockquote-highlighted {
-  background-color: pink;
+  background-color: #f7b6c1;
 }
 .blockquote__author {
-  padding: 0.25rem 1rem;
+  padding: 0.5rem 1rem;
 }
 .blockquote__author:before {
   content: "- ";

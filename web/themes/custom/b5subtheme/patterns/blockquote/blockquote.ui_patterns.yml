@@ -23,4 +23,4 @@ blockquote:
       type: uri
       label: Citation
       description: URL where the original text can be found (optional).
-      preview: "https://example.com/"
+      preview: "<a href='https://example.com/'>Link to source</a>"

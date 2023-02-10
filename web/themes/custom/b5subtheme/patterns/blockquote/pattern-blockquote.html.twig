@@ -1,6 +1,10 @@
-<blockquote class=" blockquote blockquote-{{ variant }}" cite={{ cite }}>
+<blockquote class="blockquote blockquote-{{ variant }}">
 	<div class="blockquote__content">{{ content }}</div>
 	{% if attribution %}
-		<footer class="blockquote__author">{{ attribution }}</footer>
+		<footer class="blockquote__author">
+			{{ attribution }}
+			{{ cite }}
+
+		</footer>
 	{% endif %}
 </blockquote>

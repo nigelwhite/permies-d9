@@ -7,6 +7,21 @@
 
 {% if patterns is not empty %}
 
+
+	{# List of available patterns with anchor links. #}
+	{% for group_name, group_patterns in patterns %}
+		{% if patterns|length > 1 %}
+			<h3>{{ group_name }}</h3>
+		{% endif %}
+		<ul>
+			{% for pattern_name, pattern in group_patterns %}
+				<li>
+					<a href="#{{ pattern_name }}">{{ pattern.label }}</a>
+				</li>
+			{% endfor %}
+		</ul>
+	{% endfor %}
+
 	<hr>
 
 	{% for group_patterns in patterns %}
@@ -15,9 +30,8 @@
 				{{ pattern.meta }}
 
 				{# Rendered pattern preview. #}
-				<fieldset
-					class="pattern-preview__preview">
-					{# <legend>{{ "Preview"|t }}</legend> #}
+				<fieldset class="pattern-preview__preview">
+					<legend>{{ "Preview"|t }}</legend>
 					{{ pattern.rendered }}
 				</fieldset>
 
