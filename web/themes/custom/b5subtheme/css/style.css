@@ -12845,14 +12845,19 @@ body {
   background-color: aquamarine;
 }
 
-.blockquote-default {
+.blockquote {
   border: 1px solid black;
   border-radius: 10px;
   padding: 1rem;
 }
-
+.blockquote-default {
+  background-color: grey;
+}
+.blockquote-highlighted {
+  background-color: pink;
+}
 .blockquote__author {
-  padding: 0 1rem;
+  padding: 0.25rem 1rem;
 }
 .blockquote__author:before {
   content: "- ";

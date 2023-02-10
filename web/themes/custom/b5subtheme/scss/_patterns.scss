@@ -1,12 +1,18 @@
 // blockquote
-.blockquote-default {
+.blockquote {
   border: 1px solid black;
   border-radius: 10px;
   padding: 1rem;
-}
-.blockquote__author {
-  padding: 0 1rem;
-  &:before {
-    content: "- ";
+  &-default {
+    background-color: grey;
+  }
+  &-highlighted {
+    background-color: pink;
+  }
+  &__author {
+    padding: 0.25rem 1rem;
+    &:before {
+      content: "- ";
+    }
   }
 }
