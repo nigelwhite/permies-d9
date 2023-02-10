@@ -1,0 +1,12 @@
+// blockquote
+.blockquote-default {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 1rem;
+}
+.blockquote__author {
+  padding: 0 1rem;
+  &:before {
+    content: "- ";
+  }
+}

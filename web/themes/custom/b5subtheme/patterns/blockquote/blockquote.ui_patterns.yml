@@ -1,7 +1,13 @@
 blockquote:
   label: "Blockquote"
-  description: A block of text quoted from an external source.
-  # variants: ...
+  description: "A block of text quoted from an external source"
+  variants:
+    default:
+      label: Default
+      description: Default blockquote.
+    highlighted:
+      label: Highlighted
+      description: Highlighted blockquote.
   fields:
     content:
       type: text
