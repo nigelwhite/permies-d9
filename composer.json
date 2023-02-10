@@ -22,7 +22,7 @@
         "drupal/coffee": "^1.2",
         "drupal/core-composer-scaffold": "^9.1",
         "drupal/core-project-message": "^9.1",
-        "drupal/core-recommended": "9.5.2",
+        "drupal/core-recommended": "9.5.3",
         "drupal/field_group": "^3.1",
         "drupal/layout_paragraphs": "^2.0",
         "drupal/lightning_media": "^5.0",
