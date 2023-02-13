@@ -5,6 +5,14 @@
  */
 #}
 
+{%
+	set classes = [
+		'row',
+		'col-12',
+		'col-md-6',
+	]
+%}
+
 {% if patterns is not empty %}
 
 
@@ -32,7 +40,7 @@
 				<div class="container">
 					<div class="row">
 						<div
-							class="col">
+							{{attributes.addClass(classes)}}>
 
 							{# Rendered pattern preview. #}
 							<fieldset class="pattern-preview__preview">
@@ -42,7 +50,7 @@
 
 						</div>
 						<div
-							class="col">
+							{{attributes.addClass(classes)}}>
 							{# Pattern fields descriptions. #}
 							<table class="pattern-preview__fields">
 								<tbody>
@@ -62,14 +70,6 @@
 						</div>
 					</div>
 				</div>
-				{# Link to standalone pattern preview page.#}
-				{# <p>
-																									<a href="{{ url('ui_patterns.patterns.single', {'name': pattern_name}) }}" class="pattern-preview__view">
-																										{% trans %}View
-																										{{ pattern.label }}
-																										as stand-alone{% endtrans %}
-																									</a>
-																								</p> #}
 			</div>
 
 			<hr>

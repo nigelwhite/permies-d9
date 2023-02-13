@@ -3,6 +3,20 @@
   margin-bottom: 0.5rem;
 }
 
+.pattern_field_type {
+  padding-left: 2rem;
+}
+
+// table of field names in Pattern Library
+.pattern-preview__fields {
+  margin-left: 2rem;
+  table-layout: fixed;
+  height: min-content;
+  @include media-breakpoint-up(md) {
+    max-width: 75%;
+  }
+}
+
 // blockquote
 .blockquote {
   border: 1px solid black;

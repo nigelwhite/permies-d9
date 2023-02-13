@@ -12849,6 +12849,23 @@ body {
   margin-bottom: 0.5rem;
 }
 
+.pattern_field_type {
+  padding-left: 2rem;
+}
+
+.pattern-preview__fields {
+  margin-left: 2rem;
+  table-layout: fixed;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+@media (min-width: 768px) {
+  .pattern-preview__fields {
+    max-width: 75%;
+  }
+}
+
 .blockquote {
   border: 1px solid black;
   border-radius: 10px;
