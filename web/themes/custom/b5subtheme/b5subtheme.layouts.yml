@@ -1,0 +1,162 @@
+pa-2col:
+  label: "2 column"
+  category: "PA Layouts"
+  template: templates/layouts/pa-2col
+  default_region: first
+  regions:
+    first:
+      label: First column
+    second:
+      label: Second column
+  icon_map:
+    - [first, second]
+pa-2col-stacked:
+  label: "2 column stacked"
+  category: "PA Layouts"
+  template: templates/layouts/pa-2col-stacked
+  default_region: first
+  regions:
+    top:
+      label: Top
+    first:
+      label: First column
+    second:
+      label: Second column
+    bottom:
+      label: Bottom
+  icon_map:
+    - [top, top]
+    - [first, second]
+    - [bottom, bottom]
+pa-3col:
+  label: "3 column"
+  category: "PA Layouts"
+  template: templates/layouts/pa-3col
+  default_region: first
+  regions:
+    first:
+      label: First column
+    second:
+      label: Second column
+    third:
+      label: Third column
+  icon_map:
+    - [first, second, third]
+pa-3col-stacked:
+  label: "3 column stacked"
+  category: "PA Layouts"
+  template: templates/layouts/pa-3col-stacked
+  default_region: first
+  regions:
+    top:
+      label: Top
+    first:
+      label: First column
+    second:
+      label: Second column
+    third:
+      label: Third column
+    bottom:
+      label: Bottom
+  icon_map:
+    - [top, top, top]
+    - [first, second, third]
+    - [bottom, bottom, bottom]
+pa-4col:
+  label: "4 column"
+  category: "PA Layouts"
+  template: templates/layouts/pa-4col
+  default_region: first
+  regions:
+    first:
+      label: First column
+    second:
+      label: Second column
+    third:
+      label: Third column
+    fourth:
+      label: Fourth column
+  icon_map:
+    - [first, second, third, fourth]
+pa-4col-stacked:
+  label: "4 column stacked"
+  category: "PA Layouts"
+  template: templates/layouts/pa-4col-stacked
+  default_region: first
+  regions:
+    top:
+      label: Top
+    first:
+      label: First column
+    second:
+      label: Second column
+    third:
+      label: Third column
+    fourth:
+      label: Fourth column
+    bottom:
+      label: Bottom
+  icon_map:
+    - [top, top, top, top]
+    - [first, second, third, fourth]
+    - [bottom, bottom, bottom, bottom]
+pa-third-2thirds:
+  label: "1/3 2/3 column"
+  category: "PA Layouts"
+  template: templates/layouts/pa-third-2thirds
+  default_region: first
+  regions:
+    first:
+      label: First column
+    second:
+      label: Second column
+  icon_map:
+    - [first, second, second]
+pa-third-2thirds-stacked:
+  label: "1/3 2/3 column stacked"
+  category: "PA Layouts"
+  template: templates/layouts/pa-third-2thirds-stacked
+  default_region: first
+  regions:
+    top:
+      label: Top
+    first:
+      label: First column
+    second:
+      label: Second column
+    bottom:
+      label: Bottom
+  icon_map:
+    - [top, top, top]
+    - [first, second, second]
+    - [bottom, bottom, bottom]
+pa-2thirds-third:
+  label: "2/3 1/3 column"
+  category: "PA Layouts"
+  template: templates/layouts/pa-2thirds-third
+  default_region: first
+  regions:
+    first:
+      label: First column
+    second:
+      label: Second column
+  icon_map:
+    - [first, first, second]
+pa-2thirds-third-stacked:
+  label: "2/3 1/3 column stacked"
+  category: "PA Layouts"
+  template: templates/layouts/pa-2thirds-third-stacked
+  default_region: first
+  regions:
+    top:
+      label: Top
+    first:
+      label: First column
+    second:
+      label: Second column
+    bottom:
+      label: Bottom
+  icon_map:
+    - [top, top, top]
+    - [first, first, second]
+    - [bottom, bottom, bottom]
