@@ -4,13 +4,13 @@ accordion:
   fields:
     accordion_header:
       type: text
-      label: accordion_header
+      label: Accordion header
       preview: "Accordion header"
     accordion_body:
       type: text
-      label: accordion_body
+      label: Accordion body
       preview: "All about this accordion item"
     accordion_id:
       type: text
-      label: accordion_id
+      label: Accordion id
       preview: "exampleAccordion"

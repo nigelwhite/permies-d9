@@ -29,20 +29,47 @@
 			<div class="pattern-preview pattern-preview__{{ pattern.definition.id }}" id="{{ pattern_name }}">
 				{{ pattern.meta }}
 
-				{# Rendered pattern preview. #}
-				<fieldset class="pattern-preview__preview">
-					<legend>{{ "Preview"|t }}</legend>
-					{{ pattern.rendered }}
-				</fieldset>
+				<div class="container">
+					<div class="row">
+						<div
+							class="col">
 
+							{# Rendered pattern preview. #}
+							<fieldset class="pattern-preview__preview">
+
+								{{ pattern.rendered }}
+							</fieldset>
+
+						</div>
+						<div
+							class="col">
+							{# Pattern fields descriptions. #}
+							<table class="pattern-preview__fields">
+								<tbody>
+									{% for field in pattern.fields %}
+										<tr>
+
+											<td>{{ field.label }}</td>
+											<td>
+												<code>{{ field.type }}</code>
+											</td>
+
+										</tr>
+									{% endfor %}
+								</tbody>
+							</table>
+
+						</div>
+					</div>
+				</div>
 				{# Link to standalone pattern preview page.#}
 				{# <p>
-									<a href="{{ url('ui_patterns.patterns.single', {'name': pattern_name}) }}" class="pattern-preview__view">
-										{% trans %}View
-										{{ pattern.label }}
-										as stand-alone{% endtrans %}
-									</a>
-								</p> #}
+																									<a href="{{ url('ui_patterns.patterns.single', {'name': pattern_name}) }}" class="pattern-preview__view">
+																										{% trans %}View
+																										{{ pattern.label }}
+																										as stand-alone{% endtrans %}
+																									</a>
+																								</p> #}
 			</div>
 
 			<hr>

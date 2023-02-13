@@ -5,9 +5,9 @@ modal:
   fields:
     modal_name:
       type: text
-      label: modal_name
+      label: Modal name
       preview: "Term name"
     modal_description:
       type: text
-      label: modal_description
+      label: Modal description
       preview: "All about this term"

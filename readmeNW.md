@@ -2,6 +2,7 @@ I set this up for Nicola and I to play with Drupal
 
 terminal 1: in root of project
 
+- terminal 1
 - ddev start
 - open the project in browser. OK to be logged in here and make config changes
 - use terminal 1 for git, ddev composer and ddev drush
